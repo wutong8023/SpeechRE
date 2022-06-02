@@ -1,0 +1,289 @@
+id	audio	duration_ms	n_frames	tgt_text	speaker	tgt_lang
+test-0	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-0_16k.wav:0:135059	8441	135059	<triplet> Hakawati Theatre <subj> Jerusalem <obj> OrgBased_In	0	en
+test-1	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-1_16k.wav:0:36978	2311	36978	<triplet> PERUGIA <subj> Italy <obj> Located_In <triplet> AP <subj> PERUGIA <obj> OrgBased_In <subj> Italy <obj> OrgBased_In	0	en
+test-2	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-2_16k.wav:0:265834	16614	265834	<triplet> Reagan <subj> America <obj> Live_In	0	en
+test-3	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-3_16k.wav:0:267320	16707	267320	<triplet> Congress <subj> Washington <obj> OrgBased_In	0	en
+test-4	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-4_16k.wav:0:96050	6003	96050	<triplet> University of Virginia <subj> Charlottesville <obj> OrgBased_In	0	en
+test-5	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-5_16k.wav:0:216422	13526	216422	<triplet> Wright <subj> University of Texas <obj> Work_For	0	en
+test-6	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-6_16k.wav:0:242800	15175	242800	<triplet> Nikita Khrushchev <subj> Soviet <obj> Live_In	0	en
+test-7	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-7_16k.wav:0:154750	9671	154750	<triplet> Anastas Mikoyan <subj> Soviet <obj> Live_In <triplet> Khrushchev <subj> Soviet <obj> Live_In	0	en
+test-8	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-8_16k.wav:0:157722	9857	157722	<triplet> Mikoyan <subj> Soviet <obj> Live_In <triplet> Khrushchev <subj> Soviet <obj> Live_In	0	en
+test-9	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-9_16k.wav:0:164409	10275	164409	<triplet> Alekseev <subj> Soviet <obj> Live_In	0	en
+test-10	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-10_16k.wav:0:39579	2473	39579	<triplet> MILAN <subj> Italy <obj> Located_In <triplet> AP <subj> MILAN <obj> OrgBased_In <subj> Italy <obj> OrgBased_In	0	en
+test-11	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-11_16k.wav:0:47752	2984	47752	<triplet> Hot Springs National Park <subj> Ark. <obj> Located_In	0	en
+test-12	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-12_16k.wav:0:40322	2520	40322	<triplet> Aguadilla <subj> Puerto Rico <obj> Located_In	0	en
+test-13	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-13_16k.wav:0:149177	9323	149177	<triplet> Fort Wainwright annex <subj> Fairbanks <obj> Located_In <subj> Alaska <obj> Located_In <triplet> Fairbanks <subj> Alaska <obj> Located_In	0	en
+test-14	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-14_16k.wav:0:41065	2566	41065	<triplet> ATLANTIC CITY <subj> N.J . <obj> Located_In	0	en
+test-15	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-15_16k.wav:0:47009	2938	47009	<triplet> FRESNO <subj> Calif . <obj> Located_In	0	en
+test-16	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-16_16k.wav:0:263234	16452	263234	<triplet> Bolshoi Ballet <subj> Moscow <obj> OrgBased_In <subj> Moscow <obj> OrgBased_In <triplet> Kirov Ballet <subj> Leningrad <obj> OrgBased_In <triplet> June Anderson <subj> U.S. <obj> Live_In <triplet> Carol Vaness <subj> U.S. <obj> Live_In	0	en
+test-17	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-17_16k.wav:0:184471	11529	184471	<triplet> Michael D. Papagiannis <subj> Boston University <obj> Work_For	0	en
+test-18	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-18_16k.wav:0:114626	7164	114626	<triplet> Ostined <subj> Czechoslovakia <obj> Located_In <triplet> Lesny <subj> Czechoslovakia <obj> Located_In <triplet> Liberec <subj> Czechoslovakia <obj> Located_In <triplet> Gmund <subj> Austria <obj> Located_In	0	en
+test-19	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-19_16k.wav:0:36978	2311	36978	<triplet> BONE <subj> Idaho <obj> Located_In	0	en
+test-20	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-20_16k.wav:0:125400	7837	125400	<triplet> Bill Gordon <subj> Bingham County <obj> Live_In	0	en
+test-21	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-21_16k.wav:0:107195	6699	107195	<triplet> Yves Fortier <subj> Canada <obj> Live_In	0	en
+test-22	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-22_16k.wav:0:160693	10043	160693	<triplet> Bert Shanas <subj> United Federation of Teachers <obj> Work_For	0	en
+test-23	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-23_16k.wav:0:170724	10670	170724	<triplet> Michael Coats <subj> Navy <obj> Work_For	0	en
+test-24	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-24_16k.wav:0:171097	10693	171097	<triplet> Ontario <subj> California <obj> Located_In <triplet> El Toro <subj> California <obj> Located_In	0	en
+test-25	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-25_16k.wav:0:178527	11157	178527	<triplet> Yellowstone <subj> Wyo. <obj> Located_In <triplet> McAllen <subj> Texas <obj> Located_In	0	en
+test-26	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-26_16k.wav:0:139518	8719	139518	<triplet> Steve Wright <subj> DOE <obj> Work_For	0	en
+test-27	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-27_16k.wav:0:201190	12574	201190	<triplet> Bert Byers <subj> Cecil Field Naval Air Station <obj> Work_For	0	en
+test-28	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-28_16k.wav:0:166639	10414	166639	<triplet> Bayonee <subj> France <obj> Located_In <subj> France <obj> Located_In <triplet> Bonloc <subj> France <obj> Located_In <subj> France <obj> Located_In <triplet> Poitiers <subj> France <obj> Located_In <subj> France <obj> Located_In	0	en
+test-29	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-29_16k.wav:0:141747	8859	141747	<triplet> House of Delegates <subj> Maryland <obj> OrgBased_In	0	en
+test-30	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-30_16k.wav:0:157722	9857	157722	<triplet> Center for Disease Control <subj> Fort Collins <obj> OrgBased_In	0	en
+test-31	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-31_16k.wav:0:121313	7582	121313	<triplet> Shoshone-Bannock reservation <subj> Idaho <obj> Located_In	0	en
+test-32	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-32_16k.wav:0:185586	11599	185586	<triplet> Albert O. Harjula <subj> Thomaston <obj> Live_In <triplet> Paul Fournier <subj> Department of Inland Fisheries and Wildlife <obj> Work_For	0	en
+test-33	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-33_16k.wav:0:321562	20097	321562	<triplet> Idaho Falls <subj> Idaho <obj> Located_In	0	en
+test-34	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-34_16k.wav:0:171840	10740	171840	<triplet> Bush <subj> U.S. <obj> Live_In	0	en
+test-35	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-35_16k.wav:0:248000	15500	248000	<triplet> Ralph K. Winter <subj> 2nd U.S. Circuit Court of Appeals <obj> Work_For <triplet> 2nd U.S. Circuit Court of Appeals <subj> New York <obj> OrgBased_In <triplet> Kenneth Starr <subj> U.S. Circuit Court of Appeals <obj> Work_For <triplet> U.S. Circuit Court of Appeals <subj> District of Columbia <obj> OrgBased_In	0	en
+test-36	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-36_16k.wav:0:184843	11552	184843	<triplet> Omaha Beach <subj> Normandy <obj> Located_In	0	en
+test-37	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-37_16k.wav:0:159951	9996	159951	<triplet> Darryl Breniser <subj> Blue Ball <obj> Live_In	0	en
+test-38	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-38_16k.wav:0:367630	22976	367630	<triplet> Barbican <subj> London <obj> Located_In	0	en
+test-39	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-39_16k.wav:0:32520	2032	32520	<triplet> NASHVILLE <subj> Tenn . <obj> Located_In	0	en
+test-40	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-40_16k.wav:0:39950	2496	39950	<triplet> TUNIS <subj> Tunisia <obj> Located_In	0	en
+test-41	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-41_16k.wav:0:175926	10995	175926	<triplet> Navy <subj> U.S. <obj> OrgBased_In <subj> U.S. <obj> OrgBased_In	0	en
+test-42	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-42_16k.wav:0:177784	11111	177784	<triplet> Chedli Klibi <subj> Arab League <obj> Work_For	0	en
+test-43	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-43_16k.wav:0:292781	18298	292781	<triplet> -LCB- <subj> end next week <obj> Work_For	0	en
+test-44	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-44_16k.wav:0:230168	14385	230168	<triplet> Memphis <subj> Tenn. <obj> Located_In	0	en
+test-45	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-45_16k.wav:0:183357	11459	183357	<triplet> Eduard A. Shevardnadze <subj> Soviet <obj> Live_In	0	en
+test-46	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-46_16k.wav:0:259518	16219	259518	<triplet> Li <subj> Beijing <obj> Live_In <subj> China <obj> Live_In	0	en
+test-47	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-47_16k.wav:0:159580	9973	159580	<triplet> Khmer Rouge <subj> Cambodia <obj> OrgBased_In	0	en
+test-48	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-48_16k.wav:0:194502	12156	194502	<triplet> Walesa <subj> Solidarity <obj> Work_For	0	en
+test-49	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-49_16k.wav:0:223109	13944	223109	<triplet> Bradley First Air <subj> Ottawa <obj> OrgBased_In <subj> Canada <obj> OrgBased_In <triplet> Ottawa <subj> Canada <obj> Located_In	0	en
+test-50	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-50_16k.wav:0:331965	20747	331965	<triplet> Eastport International <subj> Upper Marlboro , Md. <obj> OrgBased_In	0	en
+test-51	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-51_16k.wav:0:141374	8835	141374	<triplet> Sultan Al-Saud <subj> Saudi Arabia <obj> Live_In	0	en
+test-52	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-52_16k.wav:0:127629	7976	127629	<triplet> Rocky Mountains <subj> Montana <obj> Located_In <triplet> Livingston <subj> Rocky Mountains <obj> Located_In <subj> Montana <obj> Located_In	0	en
+test-53	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-53_16k.wav:0:234255	14640	234255	<triplet> Folke Nyberg <subj> University of Washington <obj> Work_For <triplet> Seattle <subj> Pacific Rim <obj> Located_In	0	en
+test-54	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-54_16k.wav:0:116112	7257	116112	<triplet> Puget Sound <subj> Seattle <obj> Located_In <triplet> Lake Washington <subj> Seattle <obj> Located_In	0	en
+test-55	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-55_16k.wav:0:145462	9091	145462	<triplet> William J. Bennett <subj> U.S. <obj> Live_In	0	en
+test-56	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-56_16k.wav:0:153635	9602	153635	<triplet> Samuel L. Husk <subj> Council of Great City Schools <obj> Work_For	0	en
+test-57	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-57_16k.wav:0:157722	9857	157722	<triplet> Nettie Johnson <subj> Navy <obj> Work_For	0	en
+test-58	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-58_16k.wav:0:189301	11831	189301	<triplet> G. Ernest Tidwell <subj> U.S. <obj> Live_In	0	en
+test-59	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-59_16k.wav:0:164409	10275	164409	<triplet> Francisco Rojas <subj> Pemex <obj> Work_For	0	en
+test-60	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-60_16k.wav:0:249859	15616	249859	<triplet> Ricardo Camero Cardiel <subj> Ciudad Madero <obj> Live_In	0	en
+test-61	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-61_16k.wav:0:139889	8743	139889	<triplet> Aussedat-Rey SA <subj> Europe <obj> OrgBased_In	0	en
+test-62	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-62_16k.wav:0:153635	9602	153635	<triplet> Ann Silvernail <subj> International Paper <obj> Work_For	0	en
+test-63	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-63_16k.wav:0:70415	4400	70415	<triplet> GIESSEN <subj> West Germany <obj> Located_In <triplet> AP <subj> GIESSEN <obj> OrgBased_In <subj> West Germany <obj> OrgBased_In	0	en
+test-64	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-64_16k.wav:0:151405	9462	151405	<triplet> Leica company <subj> Wetzlar <obj> OrgBased_In <triplet> Rollei <subj> Braunschweig <obj> OrgBased_In	0	en
+test-65	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-65_16k.wav:0:201190	12574	201190	<triplet> Hans Guenther von Zydowitz <subj> Leica <obj> Work_For	0	en
+test-66	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-66_16k.wav:0:175926	10995	175926	<triplet> Scott Hinton <subj> Elders Futures Inc. <obj> Work_For	0	en
+test-67	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-67_16k.wav:0:145833	9114	145833	<triplet> James K. Batten <subj> Knight-Ridder <obj> Work_For	0	en
+test-68	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-68_16k.wav:0:240571	15035	240571	<triplet> Eaglebrook Plastics Inc. <subj> Chicago <obj> OrgBased_In	0	en
+test-69	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-69_16k.wav:0:37350	2334	37350	<triplet> BEIRUT <subj> Lebanon <obj> Located_In <triplet> AP <subj> BEIRUT <obj> OrgBased_In <subj> Lebanon <obj> OrgBased_In	0	en
+test-70	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-70_16k.wav:0:133202	8325	133202	<triplet> William R. Higgins <subj> U.S. <obj> Live_In	0	en
+test-71	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-71_16k.wav:0:709800	44362	709800	<triplet> Higgins <subj> America <obj> Live_In <subj> America <obj> Live_In <subj> America <obj> Live_In	0	en
+test-72	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-72_16k.wav:0:141004	8812	141004	<triplet> John Jamison <subj> National Weather Service <obj> Work_For <triplet> National Weather Service <subj> Galveston. <obj> OrgBased_In	0	en
+test-73	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-73_16k.wav:0:218650	13665	218650	<triplet> Pat Epps <subj> Greenland Expedition Society <obj> Work_For	0	en
+test-74	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-74_16k.wav:0:192273	12017	192273	<triplet> Vaughan <subj> Air Force <obj> Work_For	0	en
+test-75	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-75_16k.wav:0:318961	19935	318961	<triplet> Mrs. Say <subj> Kentucky. <obj> Live_In <triplet> Cadiz <subj> Kentucky. <obj> Located_In	0	en
+test-76	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-76_16k.wav:0:24718	1544	24718	<triplet> AP <subj> NEW ORLEANS <obj> OrgBased_In	0	en
+test-77	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-77_16k.wav:0:100508	6281	100508	<triplet> Pacific Marine Inc. <subj> Houston <obj> OrgBased_In	0	en
+test-78	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-78_16k.wav:0:182242	11390	182242	<triplet> Boise <subj> Idaho. <obj> Located_In	0	en
+test-79	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-79_16k.wav:0:275865	17241	275865	<triplet> West <subj> U.S. <obj> Located_In <triplet> Alaska <subj> U.S. <obj> Located_In	0	en
+test-80	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-80_16k.wav:0:255060	15941	255060	<triplet> Tom Van Sant <subj> Santa Monica <obj> Live_In	0	en
+test-81	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-81_16k.wav:0:184100	11506	184100	<triplet> Gerald Baliles <subj> Virginia <obj> Live_In	0	en
+test-82	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-82_16k.wav:0:185214	11575	185214	<triplet> Baliles <subj> Virginia <obj> Live_In	0	en
+test-83	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-83_16k.wav:0:223109	13944	223109	<triplet> Bush <subj> U.S. <obj> Live_In <triplet> European Community <subj> Europe. <obj> OrgBased_In	0	en
+test-84	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-84_16k.wav:0:252088	15755	252088	<triplet> Mombasa <subj> Kenya <obj> Located_In	0	en
+test-85	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-85_16k.wav:0:251345	15709	251345	<triplet> Shaw Yu-ming <subj> Government Information <obj> Work_For	0	en
+test-86	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-86_16k.wav:0:233883	14617	233883	<triplet> National Press Building <subj> Washington <obj> Located_In	0	en
+test-87	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-87_16k.wav:0:133202	8325	133202	<triplet> Wyeth-Ayerst Laboratories <subj> Philadelphia. <obj> OrgBased_In	0	en
+test-88	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-88_16k.wav:0:221623	13851	221623	<triplet> Cape Hatteras <subj> N.C. <obj> Located_In <triplet> Jacksonville <subj> N.C. <obj> Located_In <triplet> Dodge City <subj> Kan. <obj> Located_In	0	en
+test-89	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-89_16k.wav:0:174812	10925	174812	<triplet> Klamath Falls <subj> Ore. <obj> Located_In <triplet> Yuma <subj> Ariz. <obj> Located_In	0	en
+test-90	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-90_16k.wav:0:168125	10507	168125	<triplet> Fort Lewis <subj> Wash. <obj> Located_In	0	en
+test-91	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-91_16k.wav:0:146948	9184	146948	<triplet> Dave Olson <subj> Idaho <obj> Live_In <triplet> Payette National Forest <subj> Idaho <obj> Located_In	0	en
+test-92	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-92_16k.wav:0:248373	15523	248373	<triplet> La Grande <subj> Oregon <obj> Located_In	0	en
+test-93	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-93_16k.wav:0:227568	14223	227568	<triplet> Mike Ferris. <subj> Forest Service <obj> Work_For	0	en
+test-94	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-94_16k.wav:0:121685	7605	121685	<triplet> John Stembridge. <subj> North Miami <obj> Live_In	0	en
+test-95	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-95_16k.wav:0:292212	18263	292212	<triplet> Robert Bernero <subj> NRC <obj> Work_For	0	en
+test-96	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-96_16k.wav:0:130230	8139	130230	<triplet> Khieu Samphan <subj> Khmer Rouge <obj> Work_For	0	en
+test-97	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-97_16k.wav:0:120942	7558	120942	<triplet> Grand Isle <subj> La. <obj> Located_In	0	en
+test-98	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-98_16k.wav:0:239828	14989	239828	<triplet> Malcolm Grant <subj> Port Arthur <obj> Live_In <subj> Port Arthur. <obj> Live_In	0	en
+test-99	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-99_16k.wav:0:187072	11692	187072	<triplet> Lutie Dyson <subj> Lake Charles <obj> Live_In <subj> La. <obj> Live_In <triplet> Lake Charles <subj> La. <obj> Located_In	0	en
+test-100	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-100_16k.wav:0:151405	9462	151405	<triplet> Warwick <subj> Rhode Island <obj> Located_In <triplet> Pawtuxet River. <subj> Rhode Island <obj> Located_In <subj> Warwick <obj> Located_In	0	en
+test-101	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-101_16k.wav:0:137288	8580	137288	<triplet> Jack Frazier <subj> Rotary Club <obj> Work_For	0	en
+test-102	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-102_16k.wav:0:182614	11413	182614	<triplet> Tom Defelice <subj> Warwick <obj> Live_In <triplet> Disney World <subj> Florida <obj> Located_In	0	en
+test-103	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-103_16k.wav:0:236484	14780	236484	<triplet> Sherman Finesilver <subj> U.S. <obj> Live_In	0	en
+test-104	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-104_16k.wav:0:240942	15058	240942	<triplet> Terry Branstad <subj> Iowa <obj> Live_In <subj> National Governors ' Association <obj> Work_For <triplet> Booth Gardner <subj> National Governors ' Association <obj> Work_For <subj> Washington <obj> Live_In <triplet> Branstad <subj> Iowa <obj> Live_In <subj> National Governors ' Association <obj> Work_For	0	en
+test-105	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-105_16k.wav:0:136545	8534	136545	<triplet> Cecil Andrus <subj> Idaho <obj> Live_In	0	en
+test-106	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-106_16k.wav:0:167010	10438	167010	<triplet> Javier Perez de Cuellar. <subj> U.N. <obj> Work_For	0	en
+test-107	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-107_16k.wav:0:341624	21351	341624	<triplet> John Johnson <subj> XBT Telecom <obj> Work_For	0	en
+test-108	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-108_16k.wav:0:178899	11181	178899	<triplet> Bernice McIntyre <subj> Public Utilities Commission. <obj> Work_For	0	en
+test-109	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-109_16k.wav:0:271035	16939	271035	<triplet> Anchorage <subj> Alaska <obj> Located_In <triplet> Seoul <subj> South Korea. <obj> Located_In	0	en
+test-110	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-110_16k.wav:0:101994	6374	101994	<triplet> Louis Sullivan <subj> HHS <obj> Work_For	0	en
+test-111	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-111_16k.wav:0:155864	9741	155864	<triplet> Joseph R. Biden <subj> Senate Judiciary Committee <obj> Work_For	0	en
+test-112	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-112_16k.wav:0:185586	11599	185586	<triplet> Pentagon <subj> U.S. <obj> OrgBased_In	0	en
+test-113	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-113_16k.wav:0:168496	10531	168496	<triplet> An-Nahar. <subj> Beirut <obj> OrgBased_In	0	en
+test-114	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-114_16k.wav:0:177041	11065	177041	<triplet> Anderson <subj> Middle East <obj> Live_In <subj> The Associated Press <obj> Work_For <triplet> The Associated Press <subj> Middle East <obj> OrgBased_In	0	en
+test-115	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-115_16k.wav:0:194502	12156	194502	<triplet> Jacobsen <subj> Colorado <obj> Live_In	0	en
+test-116	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-116_16k.wav:0:126886	7930	126886	<triplet> Wyatt McCauley <subj> CH2M Hill <obj> Work_For	0	en
+test-117	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-117_16k.wav:0:187072	11692	187072	<triplet> Houston <subj> Texas. <obj> Located_In <triplet> Ellington Air Force Base <subj> Texas. <obj> Located_In <triplet> Galveston <subj> Texas. <obj> Located_In	0	en
+test-118	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-118_16k.wav:0:109796	6862	109796	<triplet> William P. Albrecht <subj> Commodity Futures Trading Commission. <obj> Work_For	0	en
+test-119	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-119_16k.wav:0:157351	9834	157351	<triplet> Ogdon <subj> Manygate Management <obj> Work_For	0	en
+test-120	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-120_16k.wav:0:113511	7094	113511	<triplet> Debra Sweiger <subj> Issaquah <obj> Live_In <subj> King County <obj> Live_In <triplet> Issaquah <subj> King County <obj> Located_In <triplet> Vaughn Van Zant. <subj> King County <obj> Live_In	0	en
+test-121	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-121_16k.wav:0:194502	12156	194502	<triplet> Mike Norton <subj> U.S. <obj> Live_In <triplet> Ken Fimberg <subj> Denver <obj> Live_In <triplet> Peter Murtha <subj> U.S. <obj> Live_In <subj> Justice Department <obj> Work_For <subj> Washington. <obj> Live_In <triplet> Justice Department <subj> U.S. <obj> OrgBased_In <subj> Washington. <obj> OrgBased_In	0	en
+test-122	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-122_16k.wav:0:206763	12922	206763	<triplet> Kim Dae-jung <subj> South Korea <obj> Live_In	0	en
+test-123	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-123_16k.wav:0:211221	13201	211221	<triplet> Cascade <subj> Washington <obj> Located_In <triplet> Greg Thayer <subj> U.S. Forest Service. <obj> Work_For	0	en
+test-124	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-124_16k.wav:0:188930	11808	188930	<triplet> Sierra Nevada <subj> California <obj> Located_In	0	en
+test-125	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-125_16k.wav:0:197475	12342	197475	<triplet> Joseph S. Murphy <subj> City University <obj> Work_For	0	en
+test-126	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-126_16k.wav:0:267692	16730	267692	<triplet> Idaho <subj> West <obj> Located_In <triplet> Oregon <subj> West <obj> Located_In <triplet> California <subj> West <obj> Located_In <triplet> Washington <subj> West <obj> Located_In	0	en
+test-127	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-127_16k.wav:0:136545	8534	136545	<triplet> Cecil Andrus <subj> Idaho <obj> Live_In	0	en
+test-128	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-128_16k.wav:0:146576	9161	146576	<triplet> Jeff Widener <subj> AP <obj> Work_For	0	en
+test-129	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-129_16k.wav:0:179642	11227	179642	<triplet> Klong Toey <subj> Bangkok <obj> Located_In	0	en
+test-130	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-130_16k.wav:0:223481	13967	223481	<triplet> Ofer Bar-Yosef <subj> Harvard University <obj> Work_For <triplet> Bernard Vandermeersch <subj> University of Bordeaux <obj> Work_For <subj> France <obj> Live_In <triplet> University of Bordeaux <subj> France <obj> OrgBased_In	0	en
+test-131	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-131_16k.wav:0:172211	10763	172211	<triplet> Carlos Tenev <subj> Peronist Party <obj> Work_For	0	en
+test-132	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-132_16k.wav:0:108681	6792	108681	<triplet> Guernsey <subj> Britain <obj> Located_In <subj> Channel Islands <obj> Located_In <triplet> Channel Islands <subj> Britain <obj> Located_In	0	en
+test-133	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-133_16k.wav:0:108681	6792	108681	<triplet> Wharf Holdings <subj> Hong Kong <obj> OrgBased_In	0	en
+test-134	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-134_16k.wav:0:62613	3913	62613	<triplet> Jack MacAllister <subj> U S West inc. <obj> Work_For	0	en
+test-135	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-135_16k.wav:0:151035	9439	151035	<triplet> Lawrence Kane Jr. <subj> Cincinnati <obj> Live_In <subj> Ohio <obj> Live_In <triplet> Cincinnati <subj> Ohio <obj> Located_In	0	en
+test-136	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-136_16k.wav:0:192273	12017	192273	<triplet> Jean-Luckenson <subj> Signal FM. <obj> Work_For	0	en
+test-137	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-137_16k.wav:0:143604	8975	143604	<triplet> Mexican Southeast. <subj> Mexico <obj> Located_In <triplet> EZLN <subj> Mexican Southeast. <obj> OrgBased_In <subj> Mexico <obj> OrgBased_In	0	en
+test-138	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-138_16k.wav:0:279209	17450	279209	<triplet> ITAR-TASS <subj> Moscow <obj> OrgBased_In	0	en
+test-139	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-139_16k.wav:0:35864	2241	35864	<triplet> ITAR-TASS <subj> Moscow <obj> OrgBased_In	0	en
+test-140	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-140_16k.wav:0:300385	18774	300385	<triplet> Stepanakert <subj> Nagorno-Karabakh <obj> Located_In <triplet> Nagorno-Karabakh <subj> Azerbaijan. <obj> Located_In	0	en
+test-141	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-141_16k.wav:0:68557	4284	68557	<triplet> Gianfranco Fini <subj> National Alliance <obj> Work_For	0	en
+test-142	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-142_16k.wav:0:303729	18983	303729	<triplet> Nampula Province <subj> Namialo <obj> Located_In <triplet> Northern Improvement Brigade <subj> Namialo <obj> OrgBased_In <subj> Nampula Province <obj> OrgBased_In <subj> Nampula <obj> OrgBased_In <triplet> Brigada de Melhoramentos do Norte <subj> Namialo <obj> OrgBased_In <subj> Nampula Province <obj> OrgBased_In <subj> Nampula <obj> OrgBased_In <triplet> BMN <subj> Namialo <obj> OrgBased_In <subj> Nampula Province <obj> OrgBased_In <subj> Nampula <obj> OrgBased_In <triplet> Nampula <subj> Namialo <obj> Located_In	0	en
+test-143	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-143_16k.wav:0:340881	21305	340881	<triplet> NIHON KEIZAI SHIMBUN <subj> Tokyo <obj> OrgBased_In	0	en
+test-144	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-144_16k.wav:0:313017	19563	313017	<triplet> Branko Vojnic <subj> Beli Manastir <obj> Live_In <triplet> Marko Atlagic <subj> Serb Democratic Party <obj> Work_For <subj> SDS <obj> Work_For <triplet> Milan Ernjakovic <subj> Serb Democratic Party <obj> Work_For <subj> SDS <obj> Work_For <triplet> Krajina <subj> Serb Democratic Party <obj> Work_For <subj> SDS <obj> Work_For	0	en
+test-145	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-145_16k.wav:0:264720	16545	264720	<triplet> BTA <subj> Sofia <obj> OrgBased_In	0	en
+test-146	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-146_16k.wav:0:38836	2427	38836	<triplet> Radio Rebelde Network <subj> Havana <obj> OrgBased_In	0	en
+test-147	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-147_16k.wav:0:238342	14896	238342	<triplet> AFP <subj> Paris <obj> OrgBased_In	0	en
+test-148	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-148_16k.wav:0:233140	14571	233140	<triplet> Radio Lebanon <subj> Beirut <obj> OrgBased_In	0	en
+test-149	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-149_16k.wav:0:242800	15175	242800	<triplet> ANP <subj> The Hague <obj> OrgBased_In	0	en
+test-150	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-150_16k.wav:0:272521	17032	272521	<triplet> THE JERUSALEM POST <subj> Jerusalem <obj> OrgBased_In	0	en
+test-151	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-151_16k.wav:0:41065	2566	41065	<triplet> THE JERUSALEM POST <subj> Jerusalem <obj> OrgBased_In	0	en
+test-152	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-152_16k.wav:0:117969	7373	117969	<triplet> Gerald Steinberg <subj> Bar-Ilan University <obj> Work_For	0	en
+test-153	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-153_16k.wav:0:168868	10554	168868	<triplet> Steven Bryen <subj> Pentagon <obj> Work_For	0	en
+test-154	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-154_16k.wav:0:113140	7071	113140	<triplet> Pedatzur <subj> Massachusetts Institute of Technology <obj> Work_For	0	en
+test-155	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-155_16k.wav:0:204162	12760	204162	<triplet> Australian Embassies <subj> Jakarta <obj> Located_In <subj> Bangkok <obj> Located_In	0	en
+test-156	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-156_16k.wav:0:168125	10507	168125	<triplet> Australian Government <subj> Australia <obj> OrgBased_In	0	en
+test-157	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-157_16k.wav:0:336051	21003	336051	<triplet> Yongbyon. <subj> North Korea <obj> Located_In <subj> North Korea <obj> Located_In	0	en
+test-158	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-158_16k.wav:0:212335	13270	212335	<triplet> John Savage <subj> Nova Scotia <obj> Live_In	0	en
+test-159	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-159_16k.wav:0:362058	22628	362058	<triplet> Miguel Rodriguez Mendoza <subj> ICE <obj> Work_For	0	en
+test-160	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-160_16k.wav:0:77845	4865	77845	<triplet> S. Gusak <subj> Belarusian <obj> Work_For	0	en
+test-161	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-161_16k.wav:0:189673	11854	189673	<triplet> HANDELSBLATT <subj> Duesseldorf <obj> OrgBased_In	0	en
+test-162	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-162_16k.wav:0:146576	9161	146576	<triplet> Jordi Aguil&oacute <subj> CNM <obj> Work_For	0	en
+test-163	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-163_16k.wav:0:316732	19795	316732	<triplet> EFE <subj> Santiago <obj> OrgBased_In	0	en
+test-164	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-164_16k.wav:0:61499	3843	61499	<triplet> O GLOBO <subj> Rio de Janeiro <obj> OrgBased_In	0	en
+test-165	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-165_16k.wav:0:314875	19679	314875	<triplet> Institute for Nuclear and Energy Research <subj> Sao Paulo <obj> OrgBased_In <subj> Sao Paulo <obj> OrgBased_In <subj> Sao Paulo <obj> OrgBased_In <triplet> Ipen <subj> Sao Paulo <obj> OrgBased_In <subj> Sao Paulo <obj> OrgBased_In <subj> Sao Paulo <obj> OrgBased_In <subj> Sao Paulo <obj> OrgBased_In <subj> Sao Paulo <obj> OrgBased_In <subj> Sao Paulo <obj> OrgBased_In	0	en
+test-166	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-166_16k.wav:0:300757	18797	300757	<triplet> Association of Ipen Employees <subj> Sao Paulo <obj> OrgBased_In <triplet> Assipen <subj> Sao Paulo <obj> OrgBased_In <triplet> Federal Employees Union <subj> Sao Paulo <obj> OrgBased_In	0	en
+test-167	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-167_16k.wav:0:43294	2705	43294	<triplet> Teleonce Television <subj> Guatemala City <obj> OrgBased_In	0	en
+test-168	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-168_16k.wav:0:590170	36885	590170	<triplet> Stanislav Mikhaylovich Korochkin <subj> Magadan Basin Okhotrybvod ( Okhotsk Sea Fishing Administration ) Department <obj> Work_For	0	en
+test-169	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-169_16k.wav:0:49981	3123	49981	<triplet> Suomen Yleisradio Network <subj> Helsinki <obj> OrgBased_In	0	en
+test-170	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-170_16k.wav:0:178527	11157	178527	<triplet> EL COMERCIO <subj> Lima <obj> OrgBased_In	0	en
+test-171	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-171_16k.wav:0:203047	12690	203047	<triplet> San Ignacio forest <subj> Jaen <obj> Located_In <subj> San Ignacio de Cajamarca <obj> Located_In	0	en
+test-172	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-172_16k.wav:0:342367	21397	342367	<triplet> Huancabamba <subj> Piura <obj> Located_In <triplet> Bagua <subj> Amazonas <obj> Located_In <triplet> Condorcanqui <subj> Amazonas <obj> Located_In	0	en
+test-173	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-173_16k.wav:0:139518	8719	139518	<triplet> PRAVDA UKRAINY <subj> Kiev <obj> OrgBased_In	0	en
+test-174	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-174_16k.wav:0:64099	4006	64099	<triplet> Ivan Plyushch <subj> Ukrainian <obj> Work_For	0	en
+test-175	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-175_16k.wav:0:31405	1962	31405	<triplet> JINGJI YANJIU <subj> Beijing <obj> OrgBased_In	0	en
+test-176	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-176_16k.wav:0:452337	28271	452337	<triplet> National People 's Congress <subj> Beijing <obj> OrgBased_In <subj> China <obj> OrgBased_In <triplet> State Science and Technology Commission <subj> China <obj> OrgBased_In <triplet> Deng Nan <subj> China <obj> Live_In <subj> State Science and Technology Commission <obj> Work_For	0	en
+test-177	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-177_16k.wav:0:326763	20422	326763	<triplet> Deng Nan <subj> China <obj> Live_In	0	en
+test-178	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-178_16k.wav:0:124285	7767	124285	<triplet> Congress <subj> United States <obj> OrgBased_In <subj> U.S. <obj> OrgBased_In	0	en
+test-179	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-179_16k.wav:0:175183	10948	175183	<triplet> Kim Pom-myon <subj> LDP <obj> Work_For <subj> Nonsan County <obj> Live_In	0	en
+test-180	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-180_16k.wav:0:213450	13340	213450	<triplet> Kim Il-song <subj> North Korea <obj> Live_In	0	en
+test-181	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-181_16k.wav:0:33635	2102	33635	<triplet> BANGKOK POST <subj> Bangkok <obj> OrgBased_In	0	en
+test-182	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-182_16k.wav:0:40693	2543	40693	<triplet> LA JORNADA <subj> Mexico City <obj> OrgBased_In	0	en
+test-183	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-183_16k.wav:0:244286	15267	244286	<triplet> Ernesto Zedillo Ponce de Leon <subj> PRI <obj> Work_For	0	en
+test-184	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-184_16k.wav:0:217537	13596	217537	<triplet> ENTV Television Network <subj> Algiers <obj> OrgBased_In	0	en
+test-185	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-185_16k.wav:0:46266	2891	46266	<triplet> ENTV Television Network <subj> Algiers <obj> OrgBased_In	0	en
+test-186	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-186_16k.wav:0:201190	12574	201190	<triplet> NEZAVISIMAYA GAZETA <subj> Moscow <obj> OrgBased_In	0	en
+test-187	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-187_16k.wav:0:26576	1661	26576	<triplet> THE HINDU <subj> Madras <obj> OrgBased_In	0	en
+test-188	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-188_16k.wav:0:30291	1893	30291	<triplet> ACAN <subj> Panama City <obj> OrgBased_In	0	en
+test-189	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-189_16k.wav:0:30291	1893	30291	<triplet> SAPA <subj> Johannesburg <obj> OrgBased_In	0	en
+test-190	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-190_16k.wav:0:187444	11715	187444	<triplet> Mr Nelson Rohihlahla Mandela <subj> Republic of South Africa <obj> Live_In	0	en
+test-191	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-191_16k.wav:0:207134	12945	207134	<triplet> KNA <subj> Nairobi <obj> OrgBased_In	0	en
+test-192	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-192_16k.wav:0:198589	12411	198589	<triplet> African National Congress <subj> South Africa <obj> OrgBased_In <triplet> ANC <subj> South Africa <obj> OrgBased_In <triplet> Nelson Mandela <subj> African National Congress <obj> Work_For <subj> ANC <obj> Work_For <subj> South Africa <obj> Live_In <triplet> de Klerk <subj> South Africa <obj> Live_In	0	en
+test-193	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-193_16k.wav:0:120942	7558	120942	<triplet> Kim Hyong-ki <subj> NUB <obj> Work_For	0	en
+test-194	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-194_16k.wav:0:428560	26785	428560	<triplet> Gabcikovo derivation canal <subj> Slovakia <obj> Located_In	0	en
+test-195	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-195_16k.wav:0:237599	14849	237599	<triplet> EU <subj> Brussels <obj> OrgBased_In	0	en
+test-196	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-196_16k.wav:0:229054	14315	229054	<triplet> Yasir 'Arafat <subj> PLO <obj> Work_For	0	en
+test-197	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-197_16k.wav:0:142118	8882	142118	<triplet> Georgiy Gurinov <subj> Pacific Fleet <obj> Work_For	0	en
+test-198	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-198_16k.wav:0:167753	10484	167753	<triplet> Viktor Posuvalyuk <subj> Middle East and Africa department <obj> Work_For <subj> Russian Foreign Ministry <obj> Work_For	0	en
+test-199	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-199_16k.wav:0:340138	21258	340138	<triplet> Sergey Rogov <subj> Center for Problems of National Security and International Relations <obj> Work_For	0	en
+test-200	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-200_16k.wav:0:215308	13456	215308	<triplet> BASAPRESS <subj> Chisinau <obj> OrgBased_In	0	en
+test-201	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-201_16k.wav:0:322305	20144	322305	<triplet> Valentin Krylov <subj> Socialist Party <obj> Work_For	0	en
+test-202	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-202_16k.wav:0:161809	10113	161809	<triplet> Federal Administrative Court <subj> Berlin <obj> OrgBased_In <subj> Federal Republic <obj> OrgBased_In	0	en
+test-203	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-203_16k.wav:0:216422	13526	216422	<triplet> Institute of Organic Chemistry <subj> Shanghai <obj> OrgBased_In	0	en
+test-204	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-204_16k.wav:0:120570	7535	120570	<triplet> HOLOS UKRAYINY <subj> Kiev <obj> OrgBased_In	0	en
+test-205	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-205_16k.wav:0:33635	2102	33635	<triplet> HOLOS UKRAYINY <subj> Kiev <obj> OrgBased_In	0	en
+test-206	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-206_16k.wav:0:126143	7883	126143	<triplet> Ukraine <subj> Soviet Union <obj> Located_In	0	en
+test-207	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-207_16k.wav:0:245029	15314	245029	<triplet> Lee Harvey Oswald <subj> Kennedy <obj> Kill	0	en
+test-208	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-208_16k.wav:0:239085	14942	239085	<triplet> Sirhan Sirhan <subj> Robert F. Kennedy <obj> Kill	0	en
+test-209	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-209_16k.wav:0:341253	21328	341253	<triplet> Sirhan Bishara Sirhan <subj> Sen. Robert F. Kennedy <obj> Kill	0	en
+test-210	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-210_16k.wav:0:180385	11274	180385	<triplet> James Earl Ray <subj> Dr. Martin Luther King Jr <obj> Kill	0	en
+test-211	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-211_16k.wav:0:126886	7930	126886	<triplet> Oswald <subj> Kennedy <obj> Kill	0	en
+test-212	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-212_16k.wav:0:314503	19656	314503	<triplet> Lee Harvey Oswald <subj> Kennedy <obj> Kill	0	en
+test-213	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-213_16k.wav:0:194131	12133	194131	<triplet> Lee Harvey Oswald <subj> President John F. Kennedy <obj> Kill	0	en
+test-214	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-214_16k.wav:0:195245	12202	195245	<triplet> Lee Harvey Oswald <subj> Kennedy <obj> Kill	0	en
+test-215	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-215_16k.wav:0:167010	10438	167010	<triplet> Oswald <subj> President John F. Kennedy <obj> Kill	0	en
+test-216	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-216_16k.wav:0:117598	7349	117598	<triplet> Charles J. Guiteau <subj> President James Garfield <obj> Kill	0	en
+test-217	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-217_16k.wav:0:393637	24602	393637	<triplet> Lee Harvey Oswald <subj> President John F. Kennedy <obj> Kill	0	en
+test-218	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-218_16k.wav:0:215679	13479	215679	<triplet> John Martini <subj> Irving Flax <obj> Kill	0	en
+test-219	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-219_16k.wav:0:223109	13944	223109	<triplet> Lee Harvard Oswald <subj> President John F. Kennedy <obj> Kill	0	en
+test-220	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-220_16k.wav:0:192645	12040	192645	<triplet> Lee Harvey Oswald <subj> President Kennedy <obj> Kill	0	en
+test-221	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-221_16k.wav:0:135059	8441	135059	<triplet> Sirhan Sirhan <subj> New York Sen. Robert F. Kennedy <obj> Kill	0	en
+test-222	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-222_16k.wav:0:213821	13363	213821	<triplet> Sirhan Sirhan <subj> Sen. Robert F. Kennedy <obj> Kill	0	en
+test-223	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-223_16k.wav:0:235741	14733	235741	<triplet> Sirhan B. Sirhan <subj> Sen. Robert F. Kennedy <obj> Kill	0	en
+test-224	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-224_16k.wav:0:84160	5260	84160	<triplet> Sirhan Bishara Sirhan <subj> Kennedy <obj> Kill	0	en
+test-225	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-225_16k.wav:0:190043	11877	190043	<triplet> John Wilkes Booth <subj> President Abraham Lincoln <obj> Kill	0	en
+test-226	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-226_16k.wav:0:130230	8139	130230	<triplet> Charlotte Corday <subj> Jean Paul Marat <obj> Kill	0	en
+test-227	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-227_16k.wav:0:239828	14989	239828	<triplet> James Earl Ray <subj> Dr. Martin Luther King Jr. <obj> Kill	0	en
+test-228	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-228_16k.wav:0:193016	12063	193016	<triplet> Lee Harvey Oswald <subj> President John F. Kennedy <obj> Kill	0	en
+test-229	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-229_16k.wav:0:160323	10020	160323	<triplet> Ray <subj> King <obj> Kill	0	en
+test-230	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-230_16k.wav:0:219394	13712	219394	<triplet> John Wilkes Booth <subj> Lincoln <obj> Kill	0	en
+test-231	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-231_16k.wav:0:181871	11366	181871	<triplet> James Earl Ray <subj> Martin Luther King Jr. <obj> Kill	0	en
+test-232	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-232_16k.wav:0:165895	10368	165895	<triplet> James Earl Ray <subj> Martin Luther King Jr. <obj> Kill	0	en
+test-233	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-233_16k.wav:0:155121	9695	155121	<triplet> Lee Harvey Oswald <subj> President Kennedy. <obj> Kill	0	en
+test-234	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-234_16k.wav:0:162552	10159	162552	<triplet> Sirhan B. Sirhan <subj> Sen. Robert F. Kennedy <obj> Kill	0	en
+test-235	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-235_16k.wav:0:132830	8301	132830	<triplet> Jack Ruby <subj> Lee Harvey Oswald <obj> Kill <triplet> Lee Harvey Oswald <subj> John F. Kennedy <obj> Kill	0	en
+test-236	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-236_16k.wav:0:157351	9834	157351	<triplet> Oswald <subj> Kennedy <obj> Kill	0	en
+test-237	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-237_16k.wav:0:170354	10647	170354	<triplet> Kim Jae-kyu <subj> President Park Chung-hee <obj> Kill	0	en
+test-238	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-238_16k.wav:0:76731	4795	76731	<triplet> Chapman <subj> Lennon <obj> Kill	0	en
+test-239	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-239_16k.wav:0:152149	9509	152149	<triplet> Mark David Chapman <subj> John Lennon <obj> Kill	0	en
+test-240	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-240_16k.wav:0:259890	16243	259890	<triplet> Mark David Chapman <subj> Lennon <obj> Kill	0	en
+test-241	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-241_16k.wav:0:178899	11181	178899	<triplet> Mark David Chapman <subj> Lennon <obj> Kill	0	en
+test-242	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-242_16k.wav:0:282924	17682	282924	<triplet> Kleber Elias Gia Bustamante <subj> Jose Antonio Briz Lopez. <obj> Kill	0	en
+test-243	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-243_16k.wav:0:169982	10623	169982	<triplet> James Earl Ray <subj> Martin Luther King <obj> Kill	0	en
+test-244	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-244_16k.wav:0:165524	10345	165524	<triplet> Rigoberto Lopez Perez <subj> Somoza Garcia <obj> Kill	0	en
+test-245	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-245_16k.wav:0:241685	15105	241685	<triplet> Sirhan B. Sirhan <subj> Sen. Robert F. Kennedy <obj> Kill	0	en
+test-246	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-246_16k.wav:0:104595	6537	104595	<triplet> Sirhan <subj> Kennedy <obj> Kill	0	en
+test-247	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-247_16k.wav:0:141747	8859	141747	<triplet> Sirhan Sirhan <subj> Sen. Robert F. Kennedy <obj> Kill	0	en
+test-248	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-248_16k.wav:0:164781	10298	164781	<triplet> Jack Ruby <subj> Oswald <obj> Kill	0	en
+test-249	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-249_16k.wav:0:191530	11970	191530	<triplet> Lee Harvey Oswald <subj> President Kennedy <obj> Kill	0	en
+test-250	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-250_16k.wav:0:242057	15128	242057	<triplet> James Earl Ray <subj> Rev. Martin Luther King Jr. <obj> Kill	0	en
+test-251	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-251_16k.wav:0:219394	13712	219394	<triplet> Ruby <subj> Oswald <obj> Kill	0	en
+test-252	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-252_16k.wav:0:140261	8766	140261	<triplet> John Wilkes Booth <subj> Abraham Lincoln <obj> Kill	0	en
+test-253	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-253_16k.wav:0:165524	10345	165524	<triplet> Elizabeth <subj> North Carolina <obj> Live_In	0	en
+test-254	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-254_16k.wav:0:368745	23046	368745	<triplet> Elizabeth Dole <subj> Salisbury , N.C. <obj> Live_In	0	en
+test-255	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-255_16k.wav:0:213078	13317	213078	<triplet> Jesse Jackson <subj> South Carolina <obj> Live_In	0	en
+test-256	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-256_16k.wav:0:189673	11854	189673	<triplet> Jesse Jackson <subj> South Carolina <obj> Live_In	0	en
+test-257	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-257_16k.wav:0:107567	6722	107567	<triplet> Lowell Thomas <subj> Woodington , Ohio <obj> Live_In	0	en
+test-258	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-258_16k.wav:0:130973	8185	130973	<triplet> Eric Sevareid <subj> Velva <obj> Live_In	0	en
+test-259	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-259_16k.wav:0:343110	21444	343110	<triplet> Hubert H. Humphrey <subj> Wallace , S.D. <obj> Live_In	0	en
+test-260	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-260_16k.wav:0:98650	6165	98650	<triplet> Brigham Young <subj> Whitingham , Vt <obj> Live_In	0	en
+test-261	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-261_16k.wav:0:202676	12667	202676	<triplet> Will Rogers <subj> Oklahoma <obj> Live_In	0	en
+test-262	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-262_16k.wav:0:106824	6676	106824	<triplet> Jesse Owens <subj> Danville , Ala. <obj> Live_In	0	en
+test-263	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-263_16k.wav:0:204162	12760	204162	<triplet> Springsteen <subj> New Jersey <obj> Live_In	0	en
+test-264	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-264_16k.wav:0:141747	8859	141747	<triplet> James Garfield <subj> Orange , Ohio <obj> Live_In	0	en
+test-265	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-265_16k.wav:0:191902	11993	191902	<triplet> Atwater <subj> South Carolina <obj> Live_In	0	en
+test-266	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-266_16k.wav:0:236484	14780	236484	<triplet> Fats Domino <subj> New Orleans <obj> Live_In	0	en
+test-267	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-267_16k.wav:0:213821	13363	213821	<triplet> Holly <subj> Lubbock <obj> Live_In	0	en
+test-268	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-268_16k.wav:0:159951	9996	159951	<triplet> John Deere <subj> Rutland , Vt. <obj> Live_In	0	en
+test-269	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-269_16k.wav:0:122055	7628	122055	<triplet> Rev. Jesse Jackson <subj> South Carolina <obj> Live_In	0	en
+test-270	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-270_16k.wav:0:146576	9161	146576	<triplet> Ulysses S. Grant <subj> Point Pleasant , Ohio <obj> Live_In	0	en
+test-271	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-271_16k.wav:0:172583	10786	172583	<triplet> James Monroe <subj> Westmoreland County ,Virginia <obj> Live_In	0	en
+test-272	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-272_16k.wav:0:168868	10554	168868	<triplet> Sen. Bob Dole <subj> Russell , Kan. <obj> Live_In	0	en
+test-273	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-273_16k.wav:0:119084	7442	119084	<triplet> Rev. Jesse Jackson <subj> South Carolina <obj> Live_In	0	en
+test-274	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-274_16k.wav:0:150663	9416	150663	<triplet> Dwight D. Eisenhower <subj> Denison , Texas <obj> Live_In	0	en
+test-275	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-275_16k.wav:0:290726	18170	290726	<triplet> Martin Van Buren <subj> Kinderhook , N.Y. <obj> Live_In	0	en
+test-276	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-276_16k.wav:0:160323	10020	160323	<triplet> Elvis Presley <subj> Tupelo , Miss <obj> Live_In	0	en
+test-277	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-277_16k.wav:0:144719	9044	144719	<triplet> Bob Dylan <subj> Duluth <obj> Live_In	0	en
+test-278	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-278_16k.wav:0:145462	9091	145462	<triplet> Andrew Jackson <subj> Waxhaw , S.C. <obj> Live_In	0	en
+test-279	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-279_16k.wav:0:185214	11575	185214	<triplet> Benjamin Harrison <subj> North Bend , Ohio <obj> Live_In	0	en
+test-280	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-280_16k.wav:0:155493	9718	155493	<triplet> Oliver Hazard Perry <subj> South Kingstown , R.I. <obj> Live_In	0	en
+test-281	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-281_16k.wav:0:271778	16986	271778	<triplet> Rutherford B. Hayes <subj> Delaware , Ohio <obj> Live_In	0	en
+test-282	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-282_16k.wav:0:141747	8859	141747	<triplet> James Garfield <subj> Orange , Ohio <obj> Live_In	0	en
+test-283	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-283_16k.wav:0:249116	15569	249116	<triplet> Dwight D. Eisenhower <subj> Denison , Tex <obj> Live_In	0	en
+test-284	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-284_16k.wav:0:121313	7582	121313	<triplet> Bette Davis <subj> Lowell , Mass <obj> Live_In <triplet> Ruth Elizabeth Davis <subj> Lowell , Mass <obj> Live_In	0	en
+test-285	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-285_16k.wav:0:180385	11274	180385	<triplet> Jesse Alexander Helms Jr. <subj> Monroe <obj> Live_In	0	en
+test-286	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-286_16k.wav:0:214193	13387	214193	<triplet> Lawrence Welk <subj> North Dakota <obj> Live_In	0	en
+test-287	/data/wangguitao/IWSLT/Datasets/conll04/test/conll04_test-287_16k.wav:0:90477	5654	90477	<triplet> Indianapolis <subj> Indiana <obj> Located_In	0	en

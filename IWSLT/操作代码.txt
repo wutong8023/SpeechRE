@@ -1,0 +1,104 @@
+# Massive3服务器操作代码
+
+## 进入目录
+
+```python
+cd D:\语音关系抽取/IWSLT
+```
+
+## 激活环境
+
+```python
+conda activate speechre
+```
+
+## 环境命令
+
+```python
+export IWSLT_ROOT=D:\语音关系抽取\IWSLT
+export FAIRSEQ_ROOT=D:\语音关系抽取/fairseq
+export WAV2VEC_ROOT=D:\语音关系抽取/IWSLT/Pre-trained_models/Wav2Vec
+export WAV2VEC_BASE=D:\语音关系抽取/IWSLT/Pre-trained_models/Wav2Vec-base
+export BART_ROOT=D:\语音关系抽取/IWSLT/Pre-trained_models/BART-large
+export BART_BASE=D:\语音关系抽取/IWSLT/Pre-trained_models/BART-base
+export REBEL_ROOT=D:\语音关系抽取/IWSLT/Pre-trained_models/REBEL-large
+export DATA_ROOT=D:\语音关系抽取/workplace/IWSLT/Data
+export SAVE_DIR=D:\语音关系抽取/workplace/IWSLT/Save
+export HYDRA_FULL_ERROR=1
+```
+
+## 安装fairseq
+
+```python
+pip install --editable %FAIRSEQ_ROOT%
+```
+
+## 安装apex
+
+```python
+git clone https://github.com/NVIDIA/apex && cd apex
+pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" \
+  --global-option="--deprecated_fused_adam" --global-option="--xentropy" \
+  --global-option="--fast_multihead_attn" ./
+cd .. && rm -rf apex
+```
+
+## 下载Wav2Vec
+
+```python
+wget https://dl.fbaipublicfiles.com/fairseq/wav2vec/wav2vec_vox_960h_pl.pt -P ${WAV2VEC_ROOT}
+cd /home/yli/ye17/guitao/workplace/IWSLT
+python ./scripts/prepare_wav2vec.py --checkpoint $WAV2VEC_ROOT/wav2vec_vox_960h_pl.pt
+
+wget https://dl.fbaipublicfiles.com/fairseq/wav2vec/wav2vec_small_960h.pt -P ${WAV2VEC_BASE}
+cd /home/yli/ye17/guitao/workplace/IWSLT
+python ./scripts/prepare_wav2vec.py --checkpoint $WAV2VEC_BASE/wav2vec_small_960h.pt
+```
+
+## 下载BART
+
+```python
+mkdir -p ${BART_ROOT} && \
+wget https://dl.fbaipublicfiles.com/fairseq/models/bart.large.tar.gz -O - | \
+  tar -xz --strip-components 1 -C ${BART_ROOT}
+
+mkdir -p ${BART_BASE} && \
+wget https://dl.fbaipublicfiles.com/fairseq/models/bart.base.tar.gz -O - | \
+  tar -xz --strip-components 1 -C ${BART_BASE}
+```
+
+## 处理数据
+
+```python
+conda install ffmpeg
+
+for f in /home/jinmingz/da33/jinming/guitao/IWSLT/Datasets/tacred/train*/*.wav; do   ffmpeg -i $f -ar 16000 -hide_banner -loglevel error "${f%.wav}_16k.wav" && rm $f; done
+
+for f in /home/jinmingz/da33/jinming/guitao/IWSLT/Datasets/tacred/dev/*.wav; do   ffmpeg -i $f -ar 16000 -hide_banner -loglevel error "${f%.wav}_16k.wav" && rm $f; done
+
+for f in /home/jinmingz/da33/jinming/guitao/IWSLT/Datasets/tacred/test/*.wav; do   ffmpeg -i $f -ar 16000 -hide_banner -loglevel error "${f%.wav}_16k.wav" && rm $f; done
+```
+
+```python
+conda install ffmpeg
+
+for f in /home/yli/ye17/guitao/workplace/IWSLT/Datasets/tacred/train*/*.wav; do   ffmpeg -i $f -ar 16000 -hide_banner -loglevel error "${f%.wav}_16k.wav" && rm -f $f; done
+
+for f in /home/yli/ye17/guitao/workplace/IWSLT/Datasets/tacred/dev/*.wav; do   ffmpeg -i $f -ar 16000 -hide_banner -loglevel error "${f%.wav}_16k.wav" && rm -f $f; done
+
+for f in /home/yli/ye17/guitao/workplace/IWSLT/Datasets/tacred/test/*.wav; do   ffmpeg -i $f -ar 16000 -hide_banner -loglevel error "${f%.wav}_16k.wav" && rm -f $f; done
+
+for f in /home/yli/ye17/guitao/workplace/IWSLT/Datasets/tacred/temp/*.wav; do   ffmpeg -i $f -ar 16000 -hide_banner -loglevel error "${f%.wav}_16k.wav" && rm -f $f; done
+
+for f in /home/yli/ye17/guitao/workplace/IWSLT/Datasets/tacred/temp/*.wav; do   cp -i $f /home/yli/ye17/guitao/workplace/IWSLT/Datasets/tacred/dev/; done
+```
+
+## 跑模型
+
+```python
+CUDA_VISIBLE_DEVICES=0 fairseq-hydra-train   --config-dir %IWSLT_ROOT%/config/   --config-name speechre_tacred_part_part.yaml
+```
+
+```python
+CUDA_VISIBLE_DEVICES=0 fairseq-generate %DATA_ROOT%     --path %SAVE_DIR%/speechre_tacred_part_part/ckpts/checkpoint_best.pt     --results-path %SAVE_DIR%/speechre_tacred_part_part/results/     --user-dir %IWSLT_ROOT%/fairseq_modules     --task speech_to_text_iwslt21 --gen-subset test_tacred     --max-source-positions 960000 --max-tokens 960000       --skip-invalid-size-inputs-valid-test --prefix-size 1     --beam 5 --scoring sacrebleu
+```

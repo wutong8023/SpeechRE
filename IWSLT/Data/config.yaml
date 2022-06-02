@@ -1,0 +1,11 @@
+#pre-tokenizer:
+#  tokenizer: bart
+#bpe_tokenizer:
+#  bpe: sentencepiece
+#  sentencepiece_model: /data/wangguitao/IWSLT/Data/spm_bpe250000_en-de_st.model
+input_channels: 1
+input_feat_per_channel: 1
+prepend_tgt_lang_tag: false
+sampling_alpha: 1.0
+use_audio_input: true
+vocab_filename: bartre/dict.txt

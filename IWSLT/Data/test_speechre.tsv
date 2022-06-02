@@ -1,0 +1,6 @@
+id	audio	duration_ms	n_frames	tgt_text	speaker	tgt_lang
+test-8	/data/wangguitao/IWSLT/Datasets/tacred/test/test-8_16k.wav:0:379519	23719	379519	<triplet> Laura Silsby <subj> missionary <obj> person title	0	en
+test-11	/data/wangguitao/IWSLT/Datasets/tacred/test/test-11_16k.wav:0:214564	13410	214564	<triplet> Almena Lomax <subj> journalist <obj> person title <triplet> her <subj> journalist <obj> person title	0	en
+test-13	/data/wangguitao/IWSLT/Datasets/tacred/test/test-13_16k.wav:0:208620	13038	208620	<triplet> Ramon <subj> captain <obj> person title	0	en
+test-16	/data/wangguitao/IWSLT/Datasets/tacred/test/test-16_16k.wav:0:180012	11250	180012	<triplet> NRA <subj> Cain <obj> organization top members employees	0	en
+test-22	/data/wangguitao/IWSLT/Datasets/tacred/test/test-22_16k.wav:0:209362	13085	209362	<triplet> Corporate Library <subj> Paul Hodgson <obj> organization top members employees	0	en
